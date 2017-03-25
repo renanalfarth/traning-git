@@ -1,4 +1,4 @@
-# GITHUB INSTRUCTIONS
+# GIT INSTRUCTIONS
 
 ## Initializing
 
@@ -42,6 +42,10 @@ git log
 git log --pretty=oneline
 ```
 
+```{r, engine='bash', count_lines}
+git reflog
+```
+
 ## Removing and renaming
 
 ```{r, engine='bash', count_lines}
@@ -78,4 +82,23 @@ git merge newbranch
 
 ```{r, engine='bash', count_lines}
 git branch -d mybranch
+```
+
+## Back to a commit
+
+```{r, engine='bash', count_lines}
+git reset --hard e9wewi0iwe09ei0w90ew
+```
+
+## Auto resolve conflict
+
+> In a conflict, will always use the master version
+
+```{r, engine='bash', count_lines}
+git merge -X ours bugfix
+```
+> In a conflict, will always use the branch version
+
+```{r, engine='bash', count_lines}
+git merge -X theirs bugfix
 ```
