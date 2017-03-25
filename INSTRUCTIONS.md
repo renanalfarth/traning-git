@@ -1,4 +1,4 @@
-# GIT INSTRUCTIONS
+# GITHUB INSTRUCTIONS - CLASS
 
 ## Initializing
 
