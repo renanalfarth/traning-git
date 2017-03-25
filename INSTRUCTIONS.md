@@ -1,4 +1,4 @@
-# GITHU INSTRUCTIONS - CLAASS
+# GIT INSTRUCTIONS
 
 ## Initializing
 
