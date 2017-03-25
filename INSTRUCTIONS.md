@@ -57,3 +57,25 @@ git mv oldname newname
 ```{r, engine='bash', count_lines}
 touch .gitignore
 ```
+
+## Create a branch
+
+```{r, engine='bash', count_lines}
+git checkout -b newbranch
+```
+
+## Merge a branch in the master
+
+```{r, engine='bash', count_lines}
+git checkout master
+```
+
+```{r, engine='bash', count_lines}
+git merge newbranch
+```
+
+## Deleting branch
+
+```{r, engine='bash', count_lines}
+git branch -d mybranch
+```
