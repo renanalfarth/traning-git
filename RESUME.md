@@ -12,3 +12,5 @@ git commit -m "Commit message"
 ```
 
 > Primeiramente, a adição do arquivo no index. Após a adição é feito o commit.
+
+> Alteração branch
